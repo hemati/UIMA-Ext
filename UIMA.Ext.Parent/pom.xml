@@ -436,25 +436,25 @@
 			<activation>
 				<activeByDefault>true</activeByDefault>
 			</activation>
-			<repositories>
-				<repository>
-					<id>cll.artifactory</id>
-					<url>http://cll.niimm.ksu.ru:8080/artifactory/oss-repo</url>
-					<name>CLL maven repository</name>
-				</repository>
-			</repositories>
-			<distributionManagement>
-				<repository>
-					<id>cll.artifactory</id>
-					<url>http://cll.niimm.ksu.ru:8080/artifactory/oss-libs-releases-local</url>
-					<name>CLL maven repository</name>
-				</repository>
-				<snapshotRepository>
-					<id>cll.artifactory</id>
-					<url>http://cll.niimm.ksu.ru:8080/artifactory/oss-libs-snapshots-local</url>
-					<name>CLL maven repository</name>
-				</snapshotRepository>
-			</distributionManagement>
+<!-- 			<repositories> -->
+<!-- 				<repository> -->
+<!-- 					<id>cll.artifactory</id> -->
+<!-- 					<url>http://cll.niimm.ksu.ru:8080/artifactory/oss-repo</url> -->
+<!-- 					<name>CLL maven repository</name> -->
+<!-- 				</repository> -->
+<!-- 			</repositories> -->
+<!-- 			<distributionManagement> -->
+<!-- 				<repository> -->
+<!-- 					<id>cll.artifactory</id> -->
+<!-- 					<url>http://cll.niimm.ksu.ru:8080/artifactory/oss-libs-releases-local</url> -->
+<!-- 					<name>CLL maven repository</name> -->
+<!-- 				</repository> -->
+<!-- 				<snapshotRepository> -->
+<!-- 					<id>cll.artifactory</id> -->
+<!-- 					<url>http://cll.niimm.ksu.ru:8080/artifactory/oss-libs-snapshots-local</url> -->
+<!-- 					<name>CLL maven repository</name> -->
+<!-- 				</snapshotRepository> -->
+<!-- 			</distributionManagement> -->
 		</profile>
         <profile>
             <id>with-logging-impl</id>
